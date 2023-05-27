@@ -26,7 +26,7 @@ def appending_new_user(user, users_db_json=""):
         except Exception:
                 users_db_json["Users"].append({"Username": user.user_name,"Name":user.user_first_name,"Chat Id":str(user.chat_id),"Language":user.lang, "Time of registartion":user.time_of_registration,"Premium status":user.premium,"Change language":user.change_lang,"Location":user.location,"Lat":user.lat, "Long":user.long, "Premium expiring date":False, "Promo code expiring date": False})
 
-    for root, dir, files in os.walk(fr"C:\Users\Timur\Python\projects\oribot_project\oribot_main\releated_files"):
+    for root, dir, files in os.walk(fr"\oribot_main\releated_files"):
         if "Oribot_users.xlsx" not in files:
             print(users_db_json, user_chat_id_collector)
             user_chat_id_collector.append(str(user.chat_id))
@@ -39,9 +39,9 @@ def appending_new_user(user, users_db_json=""):
 
 def update_user(user):
     try:
-        book = load_workbook(fr"C:\Users\Timur\Python\projects\oribot_project\oribot_main\releated_files\Oribot_users.xlsx")
+        book = load_workbook(fr"\oribot_main\releated_files\Oribot_users.xlsx")
     except Exception as ex:
-        book = load_workbook(fr"C:\Users\Timur\Python\projects\oribot_project\oribot_support\releated_files_support\Oribot_users_support.xlsx")
+        book = load_workbook(fr"\oribot_support\releated_files_support\Oribot_users_support.xlsx")
     # try:
     #     updated_user = {"Username": user.user_name,"Name":user.user_first_name,"Chat Id":str(user.chat_id),"Language":user.lang, "Time of registartion":user.time_of_registration,"Premium status":user.premium,"Change language":user.change_lang,"Location":user.location,"Lat":user.lat, "Long":user.long, "Premium expiring date":user.premium_expiring_date[0], "Promo code expiring date": user.promo_code_expiring_date[0]}
     # except Exception as ex:
@@ -96,14 +96,14 @@ def update_user(user):
     else:
         book.active.append(list(updated_user.values())) 
         user_chat_id_collector.append(str(user.chat_id))
-    book.save(fr"C:\Users\Timur\Python\projects\oribot_project\oribot_main\releated_files\Oribot_users.xlsx")
-    book.save(fr"C:\Users\Timur\Python\projects\oribot_project\oribot_support\releated_files_support\Oribot_users_support.xlsx") 
+    book.save(fr"\oribot_main\releated_files\Oribot_users.xlsx")
+    book.save(fr"\oribot_support\releated_files_support\Oribot_users_support.xlsx") 
     return True
 
 
 def create_xlsx(users_db_json):
     df = pandas.DataFrame(users_db_json["Users"])
-    df.to_excel(fr"C:\Users\Timur\Python\projects\oribot_project\oribot_main\releated_files\Oribot_users.xlsx",sheet_name="Oribot_users", index=False)
-    df.to_excel(fr"C:\Users\Timur\Python\projects\oribot_project\oribot_support\releated_files_support\Oribot_users_support.xlsx",sheet_name="Oribot_users", index=False)
+    df.to_excel(fr"\oribot_main\releated_files\Oribot_users.xlsx",sheet_name="Oribot_users", index=False)
+    df.to_excel(fr"\oribot_support\releated_files_support\Oribot_users_support.xlsx",sheet_name="Oribot_users", index=False)
     return
     
