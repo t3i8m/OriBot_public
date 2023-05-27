@@ -20,7 +20,7 @@ from oribot_auth_data import token, payment_token, promo_codes_list
 from oribot_weather_manager import from_coordinates_to_location, from_location_to_coordinates, weather_main
 from oribot_translator import translate_current_text, all_languages_lst, emoji_code_dict, emoji_digits_time, emoji_description_commands
 
-# username = @oriibbot
+# username = @oriibbot (https://t.me/oriibbot)
 
 # Description:
 
