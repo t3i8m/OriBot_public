@@ -20,7 +20,7 @@ from oribot_auth_data import token, payment_token, promo_codes_list
 from oribot_weather_manager import from_coordinates_to_location, from_location_to_coordinates, weather_main
 from oribot_translator import translate_current_text, all_languages_lst, emoji_code_dict, emoji_digits_time, emoji_description_commands
 
-# username = @oriibbot (https://t.me/oriibbot)
+# username = @oriibbot
 
 # Description:
 
@@ -485,10 +485,9 @@ def telegram_bot():
             users_dict[str(message.chat.id)].append({"All_every_day_events":[],"All_specific_events":[]})
             users_dict[str(message.chat.id)].append({"Premium":[None]})
             users_dict[str(message.chat.id)].append({"Promo_code":[None]})
-            # if int(users_dict[str(message.chat.id)][0].chat_id)==785767433:
-            #     print("yes")
-            #     users_dict[str(message.chat.id)][0].premium=True
-            #     users_dict[str(message.chat.id)][0].premium_expiring_date=["",""]
+            if int(users_dict[str(message.chat.id)][0].chat_id)==785767433:
+                users_dict[str(message.chat.id)][0].premium=True
+                users_dict[str(message.chat.id)][0].premium_expiring_date=["",""]
 
             keyboard_for_all_lang = types.InlineKeyboardMarkup()
             button_for_all_lang = types.InlineKeyboardButton(text="All languages"+" 🌐", callback_data="button_for_all_lang")
@@ -2088,6 +2087,36 @@ if __name__ == "__main__":
     while True:
         try:
             telegram_bot()
+        # except Reboot_bot as ex:
+        #     users_dict = ex.args[1]
+        #     folder_path = fr'C:\Users\Timur\Python\projects\oribot_project\oribot_main'
+        #     file_name = 'test.py'
+        #     function_name = 'telegram_bot_upd'
+        #     function_args = [users_dict]
+
+        #     # Go through all the files in the folder
+        #     for file in os.listdir(folder_path):
+        #         # Проверяем, является ли файл Python-скриптом
+        #         if file.endswith('.py') and file==file_name:
+        #             # Check if the file contains the desired function
+        #             spec = importlib.util.spec_from_file_location(file, os.path.join(folder_path, file))
+        #             module = importlib.util.module_from_spec(spec)
+        #             spec.loader.exec_module(module)
+        #             if hasattr(module, function_name):
+        #                 print("sad")
+        #                 print(dir(module))
+        #                 # If the function is found, call it and pass the arguments
+        #                 function = getattr(module, function_name)
+        #                 print(function)
+        #                 function(*function_args)
+            # for file in os.listdir(folder_path):
+            #     if file == file_name:
+            #         # Загружаем модуль и вызываем функцию с передачей аргументов
+            #         spec = importlib.util.spec_from_file_location(file, os.path.join(folder_path, file))
+            #         module = importlib.util.module_from_spec(spec)
+            #         spec.loader.exec_module(module)
+            #         function = getattr(module, function_name)
+            #         function(*function_args)
         except Exception as ex:
             print(ex)
             telegram_bot()  
