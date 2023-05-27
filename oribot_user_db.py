@@ -72,7 +72,6 @@ def update_user(user):
     #     user_chat_id_collector.append(str(user.chat_id))
     sheet = book.active
 
-    # Найти индекс столбца с заголовком "Chat Id"
     header_row = next(sheet.iter_rows(min_row=1, max_row=1))
     id_column_index = None
     for index, cell in enumerate(header_row):
@@ -80,7 +79,6 @@ def update_user(user):
             id_column_index = index + 1
             break
 
-    # Получить значения из столбца "Chat Id"
     id_collector_from_excel_file = []
     for row in sheet.iter_rows(min_row=2, max_col=id_column_index, values_only=True):
         id_collector_from_excel_file.append(str(row[id_column_index-1]))
