@@ -1,0 +1,16 @@
+os
+random
+time
+threading
+datetime
+openai==0.27.4
+telebot==0.0.5
+schedule==1.2.0
+translators==5.4.2
+translate==3.6.1
+pandas==1.4.2
+openpyxl==3.0.10
+requests==2.27.1
+pytz==2022.1
+timezonefinder==6.2.0
+pyTelegramBotAPI==4.7.0
