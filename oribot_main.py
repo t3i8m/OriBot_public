@@ -2088,36 +2088,6 @@ if __name__ == "__main__":
     while True:
         try:
             telegram_bot()
-        # except Reboot_bot as ex:
-        #     users_dict = ex.args[1]
-        #     folder_path = fr'C:\Users\Timur\Python\projects\oribot_project\oribot_main'
-        #     file_name = 'test.py'
-        #     function_name = 'telegram_bot_upd'
-        #     function_args = [users_dict]
-
-        #     # Go through all the files in the folder
-        #     for file in os.listdir(folder_path):
-        #         # Проверяем, является ли файл Python-скриптом
-        #         if file.endswith('.py') and file==file_name:
-        #             # Check if the file contains the desired function
-        #             spec = importlib.util.spec_from_file_location(file, os.path.join(folder_path, file))
-        #             module = importlib.util.module_from_spec(spec)
-        #             spec.loader.exec_module(module)
-        #             if hasattr(module, function_name):
-        #                 print("sad")
-        #                 print(dir(module))
-        #                 # If the function is found, call it and pass the arguments
-        #                 function = getattr(module, function_name)
-        #                 print(function)
-        #                 function(*function_args)
-            # for file in os.listdir(folder_path):
-            #     if file == file_name:
-            #         # Загружаем модуль и вызываем функцию с передачей аргументов
-            #         spec = importlib.util.spec_from_file_location(file, os.path.join(folder_path, file))
-            #         module = importlib.util.module_from_spec(spec)
-            #         spec.loader.exec_module(module)
-            #         function = getattr(module, function_name)
-            #         function(*function_args)
         except Exception as ex:
             print(ex)
             telegram_bot()  
