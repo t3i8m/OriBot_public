@@ -36,11 +36,8 @@ Lai palaistu robotu, izpildiet tālāk sniegtos norādījumus:
 
 Bota visas funkcijas:
 /change_lang - mainīt valodu
-
 /promo_code - lai izmantotu akcijas kodu
-
 /buy_premium - lai atjauninātu kontu uz Premium
-
 /weather - laikapstākļu funkcija
 
 /planner - plānotāja funkcija
