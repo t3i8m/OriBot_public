@@ -23,7 +23,6 @@ No citiem failiem importētās funkcijas veic īpašus uzdevumus, kas saistīti 
 Būtībā oribot_main.py ir bota ieejas punkts, un pārējos failos ir palīgfunkcijas un klases, kas nepieciešamas bota darbināšanai un lietotāja informācijas pārvaldīšanai.
 
 Bota izmantošana:
-
 Lai palaistu robotu, izpildiet tālāk sniegtos norādījumus:
 
 1) Sekojiet saitei https://t.me/oriibbot, kas ved uz Telegram botu.
@@ -36,7 +35,6 @@ Lai palaistu robotu, izpildiet tālāk sniegtos norādījumus:
 
 
 Bota visas funkcijas:
-
 /change_lang - mainīt valodu
 
 /promo_code - lai izmantotu akcijas kodu
@@ -77,7 +75,6 @@ Bota visas funkcijas:
 
 
 Autori:
-
 Timurs Jerčaks - timurs.jercaks@gmail.com
 
 Ivans Minajevs - minajevsivans@gmail.com
