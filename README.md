@@ -6,8 +6,10 @@ Funkcijas:
 
 📝 Darāmā plānošana
 OriBot ļauj jums viegli pārvaldīt savus uzdevumus un efektīvi plānot savu dienu. Jūs varat izveidot darāmo darbu sarakstu, noteikt termiņus un noteikt prioritātes uzdevumiem. Bots palīdzēs jums būt organizētam un nodrošinās, lai jūs nepalaistu garām nevienu svarīgu termiņu.
+
 ⛅️ Informācija par laikapstākļiem
 Ar OriBot pastāvīgi saņemiet jaunāko informāciju par laikapstākļiem jebkurā vietā. Vienkārši norādiet botam vēlamo atrašanās vietu, un tas iegūs un parādīs aktuālo laikapstākļu informāciju, tostarp temperatūru, mitrumu, vēja ātrumu un daudz ko citu. Šī funkcija var palīdzēt jums attiecīgi plānot aktivitātes brīvā dabā.
+
 💬 Čatošana ar mākslīgo intelektu
 Iesaistieties sarunās ar OriBot mākslīgā intelekta iespējām. Botam ir dabiskās valodas apstrādes funkcija, un tas spēj saprast un atbildēt uz jūsu jautājumiem. Neatkarīgi no tā, vai vēlaties uzdot vispārīgu jautājumu, lūgt padomu vai iesaistīties sarunā, OriBot ir gatavs jums palīdzēt.
 
