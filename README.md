@@ -1,6 +1,8 @@
 OriBot - Bot Assistant
 OriBot ir inteliģents robots asistents, kas izstrādāts, lai vienkāršotu jūsu ikdienas uzdevumus un sniegtu noderīgu informāciju. Tas piedāvā vairākas funkcijas, kas var uzlabot jūsu produktivitāti un nodrošināt ērtības. Izpētīsim OriBot galvenās funkcijas:
 
+
+
 Funkcijas:
 📝 Darāmā plānošana
 OriBot ļauj jums viegli pārvaldīt savus uzdevumus un efektīvi plānot savu dienu. Jūs varat izveidot darāmo darbu sarakstu, noteikt termiņus un noteikt prioritātes uzdevumiem. Bots palīdzēs jums būt organizētam un nodrošinās, lai jūs nepalaistu garām nevienu svarīgu termiņu.
@@ -10,6 +12,8 @@ Ar OriBot pastāvīgi saņemiet jaunāko informāciju par laikapstākļiem jebku
 
 💬 Čatošana ar mākslīgo intelektu
 Iesaistieties sarunās ar OriBot mākslīgā intelekta iespējām. Botam ir dabiskās valodas apstrādes funkcija, un tas spēj saprast un atbildēt uz jūsu jautājumiem. Neatkarīgi no tā, vai vēlaties uzdot vispārīgu jautājumu, lūgt padomu vai iesaistīties sarunā, OriBot ir gatavs jums palīdzēt.
+
+
 
 Bota darbošana:
 Faili oribot_main.py satur galveno kodu, kas atbild par mijiedarbību ar robotu. Šis fails koordinē izsaukumus uz citiem failiem un funkcijām, lai veiktu konkrētus uzdevumus.
@@ -22,6 +26,8 @@ No citiem failiem importētās funkcijas veic īpašus uzdevumus, kas saistīti 
 
 Būtībā oribot_main.py ir bota ieejas punkts, un pārējos failos ir palīgfunkcijas un klases, kas nepieciešamas bota darbināšanai un lietotāja informācijas pārvaldīšanai.
 
+
+
 Bota izmantošana:
 Lai palaistu robotu, izpildiet tālāk sniegtos norādījumus:
 1) Sekojiet saitei https://t.me/oriibbot, kas ved uz Telegram botu.
@@ -31,6 +37,7 @@ Lai palaistu robotu, izpildiet tālāk sniegtos norādījumus:
 3) Pēc komandas /start nosūtīšanas robots var jūs sveikt un sniegt norādījumus par to, kā izmantot tā funkcionalitāti.
 
 4) Ievērojiet bota norādījumus un ievadiet nepieciešamo informāciju vai komandas teksta lodziņā, lai sazinātos ar to.
+
 
 
 Bota visas funkcijas:
@@ -73,7 +80,9 @@ Bota visas funkcijas:
 /all_specific_events - lai skatītu visus katras dienas notikumus
 
 
+
 Autori:
+
 Timurs Jerčaks - timurs.jercaks@gmail.com
 
 Ivans Minajevs - minajevsivans@gmail.com
