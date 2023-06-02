@@ -3,6 +3,7 @@ OriBot - Bot Assistant
 OriBot ir inteliģents robots asistents, kas izstrādāts, lai vienkāršotu jūsu ikdienas uzdevumus un sniegtu noderīgu informāciju. Tas piedāvā vairākas funkcijas, kas var uzlabot jūsu produktivitāti un nodrošināt ērtības. Izpētīsim OriBot galvenās funkcijas:
 
 Funkcijas:
+
 📝 Darāmā plānošana
 OriBot ļauj jums viegli pārvaldīt savus uzdevumus un efektīvi plānot savu dienu. Jūs varat izveidot darāmo darbu sarakstu, noteikt termiņus un noteikt prioritātes uzdevumiem. Bots palīdzēs jums būt organizētam un nodrošinās, lai jūs nepalaistu garām nevienu svarīgu termiņu.
 ⛅️ Informācija par laikapstākļiem
