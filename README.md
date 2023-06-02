@@ -24,7 +24,6 @@ Būtībā oribot_main.py ir bota ieejas punkts, un pārējos failos ir palīgfun
 
 Bota izmantošana:
 Lai palaistu robotu, izpildiet tālāk sniegtos norādījumus:
-
 1) Sekojiet saitei https://t.me/oriibbot, kas ved uz Telegram botu.
 
 2) Atvērtajā čata logā noklikšķiniet uz "Start" vai ievadiet komandu "/start". Tas ļaus botam zināt, ka vēlaties, lai sākas mijiedarbība.
@@ -36,8 +35,11 @@ Lai palaistu robotu, izpildiet tālāk sniegtos norādījumus:
 
 Bota visas funkcijas:
 /change_lang - mainīt valodu
+
 /promo_code - lai izmantotu akcijas kodu
+
 /buy_premium - lai atjauninātu kontu uz Premium
+
 /weather - laikapstākļu funkcija
 
 /planner - plānotāja funkcija
