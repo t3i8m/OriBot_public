@@ -4,8 +4,8 @@ def generated_answer(message):
     if ("oribot" in [n.lower() for n in message.split()]) or "орибот" in [n.lower() for n in message.split()]:
         return "OriBot is cool!"
     else:
-        openai.api_key = "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"
-        # openai.api_key = "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"
+        openai.api_key = "PASSWORD"
+        # openai.api_key = "PASSWORD"
         try:
             model_engine = "gpt-3.5-turbo"
             prompt = [{"role":"user",
