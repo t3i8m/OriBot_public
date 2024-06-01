@@ -1,4 +1,5 @@
 Promo video - https://youtu.be/Tnu79_V4L1o
+Bota prezentācija - https://youtu.be/ZB05WJj7ahk
 
 OriBot - Bot Assistant
 OriBot ir inteliģents bots asistents, kas izstrādāts, lai vienkāršotu jūsu ikdienas uzdevumus un sniegtu noderīgu informāciju. Tas piedāvā vairākas funkcijas, kas var uzlabot jūsu produktivitāti un nodrošināt ērtības. Izpētīsim OriBot galvenās funkcijas:
