@@ -3,6 +3,7 @@ OriBot - Bot Assistant
 OriBot is an intelligent bot assistant designed to simplify your daily tasks and provide useful information. It offers several features that can enhance your productivity and provide convenience. Let’s explore OriBot’s main functions:
 
 Features:
+
 📝 Task Planning
 OriBot allows you to easily manage your tasks and efficiently plan your day. You can create to-do lists, set deadlines, and prioritize tasks. The bot will help you stay organized and ensure you don’t miss any important deadlines.
 
