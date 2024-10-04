@@ -1,6 +1,63 @@
+OriBot - Bot Assistant
+
+OriBot is an intelligent bot assistant designed to simplify your daily tasks and provide useful information. It offers several features that can enhance your productivity and provide convenience. Let’s explore OriBot’s main functions:
+
+Features:
+📝 Task Planning
+OriBot allows you to easily manage your tasks and efficiently plan your day. You can create to-do lists, set deadlines, and prioritize tasks. The bot will help you stay organized and ensure you don’t miss any important deadlines.
+
+⛅️ Weather Information
+With OriBot, you can constantly receive the latest weather updates for any location. Just specify your desired location, and it will retrieve and display up-to-date weather information, including temperature, humidity, wind speed, and more. This feature can help you plan outdoor activities accordingly.
+
+💬 Chatting with AI
+Engage in conversations with OriBot using its artificial intelligence capabilities. The bot has natural language processing functions and can understand and respond to your questions. Whether you want to ask a general question, seek advice, or engage in a conversation, OriBot is ready to assist you.
+
+Bot Operation:
+The file oribot_main.py contains the main code responsible for interacting with the bot. This file coordinates calls to other files and functions to perform specific tasks.
+
+The User class stores user information. This class may contain various attributes, such as name, age, email address, etc., which can be useful when processing user requests and providing relevant responses.
+
+Additionally, user information can be stored in an Excel file, used as a database. The Excel file may contain different sheets or tables for storing user information.
+
+Functions imported from other files handle specific tasks related to user request processing or database interaction. For example, there might be a function to check if the user is in the database, a function to add a new user to the database, or a function to update user information.
+
+Essentially, oribot_main.py is the entry point for the bot, while other files contain helper functions and classes necessary for running the bot and managing user information.
+
+Using the Bot:
+To run the bot, follow the steps below:
+
+Follow the link https://t.me/oriibbot, which leads to the Telegram bot.
+In the opened chat window, click “Start” or enter the command “/start.” This lets the bot know you want to start interacting.
+After sending the /start command, the bot may greet you and provide instructions on how to use its functionality.
+Follow the bot's instructions and enter the necessary information or commands in the text box to communicate with it.
+Bot Commands:
+/change_lang - change the language
+/promo_code - to use a promo code
+/buy_premium - to upgrade your account to Premium
+/weather - weather function
+/planner - planner function
+/all_lang - list of all available languages
+/region - manually enter a location
+/schedule_forecast - schedule a weather forecast
+/new_forecast_event - set up a new forecast event
+/remove_forecast_event - remove a forecast event
+/all_forecast_events - view all forecast events
+/every_day_event - schedule a daily event
+/new_every_day_event - set up a new daily event
+/remove_every_day_event - remove a daily event
+/all_every_day_events - view all daily events
+/specific_event - schedule a specific event
+/new_specific_event - set up a new specific event
+/remove_specific_event - remove a specific event
+/all_specific_events - view all specific events
+Authors:
+Timur Jerčaks - timurs.jercaks@gmail.com
+Ivan Minaevs - minajevsivans@gmail.com
+
 Promo video - https://youtu.be/Tnu79_V4L1o
 Bota prezentācija - https://youtu.be/ZB05WJj7ahk
 
+Latvian below:
 OriBot - Bot Assistant
 OriBot ir inteliģents bots asistents, kas izstrādāts, lai vienkāršotu jūsu ikdienas uzdevumus un sniegtu noderīgu informāciju. Tas piedāvā vairākas funkcijas, kas var uzlabot jūsu produktivitāti un nodrošināt ērtības. Izpētīsim OriBot galvenās funkcijas:
 
